@@ -1,0 +1,30 @@
+ # ./bitcoin-cli -regtest createwallet "fees" >> output.txt
+{
+  "name": "breakfast"
+}
+
+ # ./bitcoin-cli -regtest listwallets>>output.txt
+[
+  "assignment",
+  "demo",
+  "fees",
+  "breakfast"
+]
+
+ # ./bitcoin-cli -regtest getmemoryinfo>>output.txt
+{
+  "locked": {
+    "used": 1376,
+    "free": 260768,
+    "total": 262144,
+    "locked": 262144,
+    "chunks_used": 33,
+    "chunks_free": 3
+  }
+}
+
+# ./bitcoin-cli -regtest getbestblockhash >> output.txt
+0f9188f13cb7b2c71f2a335e3a4fc328bf5beb436012afca590b1a11466e2206
+
+#./bitcoin-cli -regtest -rpcwallet=assignment getnewaddress >> output.txt
+bcrt1qyxxh5zj4csm9lr2p3rzl9yquktx5dvjnpcgce5
