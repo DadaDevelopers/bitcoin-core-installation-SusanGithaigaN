@@ -1,0 +1,28 @@
+[  0%] Generating bitcoin-build-info.h
+[  0%] Built target secp256k1_precomputed
+[  1%] Built target univalue
+[  2%] Built target crc32c
+[  6%] Built target minisketch
+[  9%] Built target bitcoin_consensus
+[ 12%] Built target bitcoin_crypto
+[ 12%] Built target noverify_tests
+[ 19%] Built target leveldb
+[ 20%] Built target bitcoin_cli
+[ 20%] Built target tests
+[ 20%] Built target exhaustive_tests
+[ 21%] Built target secp256k1
+[ 21%] Built target generate_build_info
+[ 32%] Built target unitester
+[ 32%] Built target object
+[ 32%] Built target bitcoin_clientversion
+[ 35%] Built target test_util
+[ 41%] Built target bitcoin_util
+[ 50%] Built target bitcoin_common
+[ 55%] Built target bitcoin_wallet
+[ 55%] Built target bitcoin-tx
+[ 55%] Built target bitcoin-cli
+[ 56%] Built target bitcoin-util
+[ 56%] Built target bitcoin-wallet
+[ 73%] Built target bitcoin_node
+[ 74%] Built target bitcoind
+[100%] Built target test_bitcoin
